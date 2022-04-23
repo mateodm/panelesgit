@@ -104,8 +104,6 @@ body {
         display: inline-block;
         justify-content: space-around;
         position: static;
-
-
     }
     .footer_redes {
         list-style: none;
@@ -113,7 +111,9 @@ body {
         display: flex;
         align-items: center;
         justify-content: space-around;
-        margin-left: -vw;
+    }
+    .footer_redes:hover {
+        transform: scale(1.1);
     }
     .footer_redes_texto {
         font-size: 2.9vh;
@@ -941,7 +941,5 @@ body {
         width: 80%;
         margin-left: 6.5vw;
         margin-top: -4vh;
-
     }
 }
-
