@@ -214,6 +214,9 @@ body {
         border: solid black;
         color: #7c7c7d;
         padding-top: 3px;
+        transition: all 0.5s;
+        -o-transition-delay: 0.85s;
+        transition-delay: 0.35s;
     }
     .carrousel {
         grid-area: 9 / 1 / 10 / 7;
@@ -448,6 +451,9 @@ body {
         align-items: flex-end;
         justify-content: end;
         margin-left: 3vw;
+    }
+    .nosotros_imagen:hover{
+        transform: scale(0.9,0.9);
     }
     .gridfooter-n { 
         grid-area: 5 / 1 / 6 / 3;
